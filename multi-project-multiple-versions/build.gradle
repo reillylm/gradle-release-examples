@@ -3,7 +3,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'net.researchgate:gradle-release:2.3.0'
+        classpath 'net.researchgate:gradle-release:2.4.0'
     }
 }
 
@@ -39,4 +39,4 @@ allprojects {
     afterReleaseBuild.dependsOn printversion
 }
 
-wrapper.gradleVersion = '2.7'
+//wrapper.gradleVersion = '2.7'
