@@ -11,6 +11,6 @@ package net.researchgate.release.examples.multiprojectsingleversion.subproject2;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Subproject2!");
+        System.out.println("hello Subproject2!");
     }
 }
