@@ -1,0 +1,10 @@
+
+apply plugin: 'war'
+
+war {
+    manifest {
+        attributes("Implementation-Title": project.name,
+        	"Implementation-Version": project.version,
+        	"Implementation-Timestamp": new Date())
+    }
+}
